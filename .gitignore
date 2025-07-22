@@ -1,0 +1,19 @@
+# Maven target directory (build output)
+target/
+
+# IDE files (optional, for VSCode/IntelliJ/Eclipse)
+*.iml
+.idea/
+.vscode/
+*.class
+
+# Mac system files
+.DS_Store
+
+# Logs
+*.log
+
+# Ignore Java binary files
+*.jar
+*.war
+*.ear
