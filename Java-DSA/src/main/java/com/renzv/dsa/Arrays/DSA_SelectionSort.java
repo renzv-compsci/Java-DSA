@@ -39,7 +39,7 @@ public class DSA_SelectionSort {
             // You do this because you will overwrite the array
 
             // This loop shifts all element between index i and minIndex one position to the right 
-            for (int k = minIndex; k > i; k--) { // But k > 1 means that it will stop when k==5
+            for (int k = minIndex; k > i; k--) { 
                 array[k] = array[k - 1];
             }
             array[i] = minValue; // Place the minimum value at its correct sorted position
@@ -64,7 +64,7 @@ public class DSA_SelectionSort {
             int minIndex = i;
 
             for (int j = i + 1; j < m; j++) {
-                if (array1[j] < array1[minIndex]) {
+                if (array1[j] < array1[minIndex]) { 
                     minIndex = j;
                 }
             }
